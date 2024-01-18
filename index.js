@@ -3,19 +3,19 @@ const PRODUCTOS = [
         id:1, 
         nombre:'remera', 
         precio:5,
-        img: '/img/RemeraBlackpink01.webp'
+        img: './img/RemeraBlackpink01.webp'
     },
     {
         id:2, 
         nombre:'buzo', 
         precio:8,
-        img: '/img/buzo.webp'
+        img: './img/buzo.webp'
     },
     {
         id:3, 
         nombre:'light stick', 
         precio:12,
-        img: '/img/Lightstick.webp'
+        img: './img/Lightstick.webp'
     }
 ]
 
