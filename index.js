@@ -3,7 +3,7 @@
 
 function cargarProductos (){
 
-fetch('/productos.json')
+fetch('./productos.json')
     .then(response => response.json())
     .then(data => {
         data.forEach(producto => {
@@ -141,7 +141,7 @@ function VerProductosDelCarrito(){
             contenedorProductosCarrito.appendChild(div);
         });
     } else {
-        console.log('tu carrito esta vacio');
+        ;
 }
 }
 
