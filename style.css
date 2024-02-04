@@ -9,11 +9,30 @@
     flex-wrap: nowrap;
     gap: 3rem;
     margin-top: 2rem;
+    text-align: center;
 }
 
+#listaDeProductosProximosID{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.parrafoNP{
+    text-align: center;
+}
+
+.card-img2{
+    width: 150px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
 
 .footer {
-    margin-top: 3rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,6 +43,16 @@
     background-color: #000000;
     color:rgb(63 63 63);
     font-size: 1.6rem;
+}
+
+
+main{
+    border: solid 1px;
+    padding-bottom: 3rem;
+}
+
+.navbar-brand{
+    color: rgb(190, 137, 146);
 }
 
 #carrito { 
@@ -39,32 +68,42 @@
     width: 12rem;
 }
 
-
-.agregar {
-    border: none;
+.producto-agregar{
     border-radius: .5rem;
-    background-color: rgb(255, 209, 225);
+    border: none;
+    background-color: rgb(255, 182, 194);
+    color: black
 }
 
 .separador {
     background-color: #1b1a1a;
     margin-block: 1rem;
-    color: rgb(187, 48, 97);
+    color: rgb(190, 137, 146);
     text-align: center;
 }
 
 #cantidadCarrito{
     border-radius: 5px;
-
 }
 
 .colorMode{
     margin-top: 1rem;
     cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    color: rgb(190, 137, 146);
+    border-style: none;
+    padding: .3rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    padding-inline: 1rem;
 }
 
 .colorModes{
     transition: 1s;
     background-color: rgb(0, 0, 0);
     color: #000000;
+}
+
+body {
+    background-color: rgb(233, 232, 232);
 }
